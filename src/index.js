@@ -13,12 +13,6 @@ const port = process.env.PORT
 //     next()
 //   }
 // })
-
-
-
-
-
-
 app.use(express.json())
 app.use(userRouter)
 app.use(taskRouter)
